@@ -1,0 +1,95 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(235, 235, 235);
+}
+h1{
+    color: #1877f2;
+    text-align: center;
+    margin: 0;
+    padding: 14px 0px 14px 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    zoom: 1.3;
+}
+
+#password, #email{
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid #33333325;
+    box-shadow: inset 0px 0px 2px #33333328;
+    color: #333;
+    border-radius: 5px;
+    width: 220px;
+    font-size: 14px;
+}
+#button{
+    background-color: #2d87fd;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.2s;
+    font-size: 14px;
+}
+#button:hover{
+    background-color: #1877f2;
+}
+.box{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 5px #33333379;
+}
+::placeholder{
+    color: #33333341;
+}
+.novaconta{
+    text-align: center;
+}
+#estilnova{
+    padding: 10px 10px;
+    outline: none;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    background-color: #49c930;
+    transition: 0.2s;
+    cursor: pointer;
+    font-size: 11px;
+}
+#estilnova:hover{
+    background-color: #42b72a;
+}
+p{
+    cursor: pointer;
+    font-size: 10px;
+    color: rgb(24, 119, 242);
+}
+p:hover{
+    text-decoration: underline;
+}
+.esqueceu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#email, #password, p, #estilnova, #button, .linha{
+    margin: 5px;
+}
+.linha{
+    border-bottom: solid 1px #3333332f;
+}
+a{
+    text-decoration: none;
+}
